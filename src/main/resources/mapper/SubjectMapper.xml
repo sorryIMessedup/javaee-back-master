@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.j5ee.mapper.SubjectMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.j5ee.entity.Subject">
+            <id property="sid" column="sid" jdbcType="INTEGER"/>
+            <result property="id" column="id" jdbcType="INTEGER"/>
+            <result property="title" column="title" jdbcType="VARCHAR"/>
+            <result property="startDate" column="startDate" jdbcType="TIMESTAMP"/>
+            <result property="endDate" column="endDate" jdbcType="TIMESTAMP"/>
+            <result property="money" column="money" jdbcType="INTEGER"/>
+            <result property="fund" column="fund" jdbcType="INTEGER"/>
+            <result property="company" column="company" jdbcType="VARCHAR"/>
+            <result property="download" column="download" jdbcType="VARCHAR"/>
+            <result property="collections" column="collections" jdbcType="INTEGER"/>
+            <result property="likes" column="likes" jdbcType="INTEGER"/>
+            <result property="type" column="type" jdbcType="INTEGER"/>
+            <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        sid,id,title,
+        startDate,endDate,money,
+        fund,company,download,
+        collections,likes,type,
+        isDelete
+    </sql>
+</mapper>

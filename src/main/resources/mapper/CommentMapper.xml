@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.j5ee.mapper.CommentMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.j5ee.entity.Comment">
+            <id property="commentId" column="commentId" jdbcType="VARCHAR"/>
+            <result property="parentCommentId" column="parentCommentId" jdbcType="VARCHAR"/>
+            <result property="userId" column="userId" jdbcType="INTEGER"/>
+            <result property="paperId" column="paperId" jdbcType="INTEGER"/>
+            <result property="column_5" column="column_5" jdbcType="INTEGER"/>
+            <result property="content" column="content" jdbcType="VARCHAR"/>
+            <result property="root" column="root" jdbcType="VARCHAR"/>
+            <result property="date" column="date" jdbcType="DATE"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        commentId,parentCommentId,userId,
+        paperId,column_5,content,
+        root,date
+    </sql>
+</mapper>
