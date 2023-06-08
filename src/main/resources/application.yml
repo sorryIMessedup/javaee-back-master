@@ -11,8 +11,8 @@ server:
 spring:
   mail:
     host: smtp.qq.com
-    username: 3222179759@qq.com
-    password: qpfeplktocgwchjb
+    username: 
+    password: 
     protocol: smtp
     port: 465
     properties.mail.smtp.ssl.enable: true
@@ -28,10 +28,10 @@ spring:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER
   datasource:
-    url: jdbc:mysql://124.221.78.46:3306/AvavaAva?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    url: 
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: Ll368890
+    username: 
+    password: 
   jpa:
     hibernate:
       ddl-auto: update
