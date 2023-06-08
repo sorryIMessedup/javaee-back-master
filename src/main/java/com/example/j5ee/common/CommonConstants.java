@@ -11,18 +11,18 @@ public class CommonConstants {
    public final static String OK = "ok";
 
    //测试user的信息
-   public final static String USERNAME = "test_user";
-   public final static String PASSWORD = "123456";
-   public final static String MAIL = "3222179759@qq.com";
-   public final static String CODE = "888888";
-   public final static String IMG = "/home/ubuntu/file/user/test_img.jpg";
+   public final static String USERNAME = "";
+   public final static String PASSWORD = "";
+   public final static String MAIL = "";
+   public final static String CODE = "";
+   public final static String IMG = "";
 
    //COS
-   public static final String COS_REGION = "ap-shanghai";
-   public static final String SECRETID ="AKID4y1CGExZHQhnfdT6XkjQt6HJ7gzFPKzT";
-   public static final String SECRECTKEY="Sj18NPDuOcdR4Wt7A1gGgU7nNjusEakw";
-   public static final String BUCKET="j2ee-1314124476";
-   public static final String PAPER_DOWNLOAD_URL="https://j2ee-1314124476.cos.ap-shanghai.myqcloud.com/paper/";
+   public static final String COS_REGION = "";
+   public static final String SECRETID ="";
+   public static final String SECRECTKEY="";
+   public static final String BUCKET="";
+   public static final String PAPER_DOWNLOAD_URL="";
 
 
 
